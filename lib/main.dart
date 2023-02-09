@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:folio/pantalla_inicio.dart';
 import 'package:folio/provider/app_provider.dart';
 import 'package:folio/provider/drawer_provider.dart';
 import 'package:folio/provider/scroll_provider.dart';
-import 'package:folio/sections/main/main_section.dart';
 import 'package:provider/provider.dart';
 import 'package:url_strategy/url_strategy.dart';
 import 'package:folio/configs/core_theme.dart' as theme;
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,6 +16,7 @@ void main() {
 
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
+  
 
   @override
   MyAppState createState() => MyAppState();
@@ -58,17 +60,18 @@ class _MaterialChildState extends State<MaterialChild> {
     super.initState();
   }
 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Hamza',
+      title: 'Hilton House',
       theme: theme.themeLight,
       darkTheme: theme.themeDark,
       themeMode: widget.provider.themeMode,
       initialRoute: "/",
       routes: {
-        "/": (context) => const MainPage(),
+        "/": (context) => Pantalla_Inicio(),
       },
     );
   }
