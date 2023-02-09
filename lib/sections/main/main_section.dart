@@ -1,4 +1,3 @@
-import 'package:folio/animations/entrance_fader.dart';
 import 'package:folio/configs/app.dart';
 import 'package:folio/configs/configs.dart';
 import 'package:folio/provider/app_provider.dart';
@@ -10,9 +9,7 @@ import 'package:folio/utils/utils.dart';
 import 'package:folio/widget/navbar_actions_button.dart';
 import 'package:folio/widget/navbar_logo.dart';
 import 'package:provider/provider.dart';
-import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
-import 'package:folio/constants.dart';
 import 'package:folio/widget/arrow_on_top.dart';
 part 'widgets/_navbar_desktop.dart';
 part 'widgets/_mobile_drawer.dart';

@@ -2,7 +2,6 @@ import 'package:folio/configs/configs.dart';
 import 'package:folio/utils/about_utils.dart';
 import 'package:folio/utils/utils.dart';
 import 'package:folio/widget/custom_text_heading.dart';
-import 'package:universal_html/html.dart' as html;
 import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
 import 'package:folio/widget/about_me_data.dart';
@@ -122,33 +121,6 @@ class AboutTab extends StatelessWidget {
             ],
           ),
           Space.y1!,
-          Row(
-            children: [
-              SizedBox(
-                height: AppDimensions.normalize(13),
-                width: AppDimensions.normalize(40),
-                child: OutlinedButton(
-                  onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
-                  child: const Text(
-                    "Resume",
-                  ),
-                ),
-              ),
-              Space.x!,
-              Container(
-                width: width * 0.05,
-                decoration: BoxDecoration(
-                  border: Border(
-                    bottom: BorderSide(
-                      color: Colors.grey[900]!,
-                      width: 2.0,
-                    ),
-                  ),
-                ),
-              ),
-              
-            ],
-          )
         ],
       ),
     );

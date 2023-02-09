@@ -15,35 +15,26 @@ class StaticUtils {
   static const String blackWhitePhoto = 'assets/photos/black-white.png';
 
   // services
-  static const String uiux = 'assets/services/ui.png';
-  static const String blog = 'assets/services/blog.png';
-  static const String appDev = 'assets/services/app.png';
-  static const String rapid = 'assets/services/rapid.png';
-  static const String openSource = 'assets/services/open.png';
-  static const String openSourceBlack = 'assets/services/open_b.png';
+  static const String uiux = 'assets/services/restaurant.jpg';
+  static const String blog = 'assets/services/spa.jpg';
+  static const String appDev = 'assets/services/piscinas.jpg';
+  static const String rapid = 'assets/services/habitaciones.jpg';
+  static const String openSource = 'assets/services/gym.jpg';
+    static const String openSourceBlack = 'assets/services/gym.jpg';
+
 
   static const List<String> socialIconURL = [
     "https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png",
     "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
     "https://img.icons8.com/android/480/ffffff/twitter.png",
-    "https://img.icons8.com/metro/308/ffffff/linkedin.png",
-    "https://img.icons8.com/material-rounded/384/ffffff/github.png",
-    "https://img.icons8.com/ios-filled/500/ffffff/medium-monogram--v1.png"
   ];
 
   static const List<String> socialLinks = [
-    "https://facebook.com/mhmzdev",
-    "https://instagram.com/mhmzdev",
-    "https://twitter.com/mhmzdev",
-    "https://linkedin.com/in/mhmzdev",
-    "https://github.com/mhmzdev",
-    "https://mhmzdev.medium.com"
+    "https://www.facebook.com/yu.takasaki.15/",
+    "https://www.instagram.com/meica05/",
+    "https://twitter.com/meica05?s=20",
   ];
 
-  static const String resume =
-      'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
-
-  static const String gitHub = 'https://github.com/mhmzdev';
 }
 
 class BodyUtils {

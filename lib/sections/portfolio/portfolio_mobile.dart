@@ -24,7 +24,6 @@ class PortfolioMobileTab extends StatelessWidget {
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
             padding: const EdgeInsets.symmetric(vertical: 15.0),
             child: ProjectCard(
-              projectIcon: ProjectUtils.icons[i],
               projectTitle: ProjectUtils.titles[i],
               projectDescription: ProjectUtils.description[i],
             ),

@@ -20,33 +20,6 @@ class _NavbarDesktop extends StatelessWidget {
                   index: e.key,
                 ),
               ),
-          EntranceFader(
-            offset: const Offset(0, -10),
-            delay: const Duration(milliseconds: 100),
-            duration: const Duration(milliseconds: 250),
-            child: MaterialButton(
-              hoverColor: AppTheme.c!.primary!.withAlpha(150),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5.0),
-                side: BorderSide(
-                  color: AppTheme.c!.primary!,
-                ),
-              ),
-              onPressed: () {
-                html.window.open(
-                  StaticUtils.resume,
-                  "pdf",
-                );
-              },
-              child: Padding(
-                padding: Space.all(1.25, 0.45),
-                child: Text(
-                  'RESUME',
-                  style: AppText.l1b,
-                ),
-              ),
-            ),
-          ),
           Space.x!,
           Switch(
             inactiveTrackColor: Colors.grey,

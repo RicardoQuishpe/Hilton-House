@@ -61,25 +61,6 @@ class _MobileDrawer extends StatelessWidget {
                       ),
                     ),
                   ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: MaterialButton(
-                  hoverColor: AppTheme.c!.primary!.withAlpha(150),
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5.0),
-                      side: BorderSide(color: AppTheme.c!.primary!)),
-                  onPressed: () => openURL(StaticUtils.resume),
-                  child: const ListTile(
-                    leading: Icon(
-                      Icons.book,
-                      color: Colors.red,
-                    ),
-                    title: Text(
-                      'RESUME',
-                    ),
-                  ),
-                ),
-              ),
             ],
           ),
         ),

@@ -10,18 +10,18 @@ class ServicesUtils {
   ];
 
   static const List<String> servicesTitles = [
-    "Mobile App Development",
-    "UI/UX Designing",
-    "Rapid Prototyping",
-    "Technical Blog Writing",
-    "Open Source - GitHub",
+    "Piscinas",
+    "Restaurante",
+    "Hoteleria",
+    "SPA",
+    "Gimnacio",
   ];
 
   static const List<String> servicesDescription = [
-    "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-    "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
-    "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype",
-    "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-    "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
+    "Contamos con amplias piscinas para adultos y niños, tanto con agua caliente y fria.",
+    "En nuestro restaurante ofrecemos la mejor comida gourtmet praparada por los mejores chefs del mundo.",
+    "Si desea pasar la noche con nosotros no se preocupe, nuestras habitaciones son amplias y con la mejor atencion al cliente.",
+    "¿Busca relajacion? No se preocupe puede visitar nuestro SPA, sera atendido por expertos.",
+    "En nuestro gimnacio encontrara gran variedad de maquinas a su disposicion y si desea tambien sera atendido por un entrenador personal.",
   ];
 }
